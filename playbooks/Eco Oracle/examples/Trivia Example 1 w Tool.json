@@ -1,0 +1,151 @@
+{
+  "name": "d16f0684-d9f7-4c7f-a439-7ce4e060961b",
+  "actions": [ {
+    "userUtterance": {
+      "text": "Can you come up with some trivia question about a Sustainable Development Goal?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/duet-ai-roadshow-415022/locations/us-central1/agents/e476af80-04b5-4c09-b1ea-09c73cf12c93/tools/c3373af3-0aa8-4e0f-ad00-255beba75bbe",
+      "action": "SDG Store 2",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "Give me a trivia question about a Sustainable Development Goal"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "The proportion of population below the international poverty line of US$1.90 per day in the world was 12.7% in 2012.",
+          "snippets": [ {
+            "text": "\n# Aggregate GHG emissions for non-Annex I Parties 1,2\n(PG CO2 equivalent) \n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| | 2000 | 2005 | 2010 | 2012 |\n|-|-|-|-|-|\n| Non-Annex I parties Under UNFCCC | 13.04 | 13.46 | 17.02 | 18.51 |\n\n_END_OF_TABLE_\n1 As at 15 April 2019. 2 Non-Annex I parties are the parties to the United Nations Framework Convention on Climate Change (UNFCCC) not listed in Annex I of the Convention and are mostly low-income developing countries. Note: The comparison of emission trends between Annex I and non-Annex I countries should be undertaken with caution owing to the difference in the reporting requirements for Annex I and non-Annex I Parties under the UNFCCC (annual vs. periodical), as well as to the availability of data for most non-Annex I Parties (developing countries report information only for some specific years in the period 1994-2012 and not for the complete period). Source: The United Nations Framework Convention on Climate Change (UNFCCC) Aggregate GHG emissions for Annex I Parties¹ (GT CO2 equivalent) \n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| | 2000 | 2005 | 2010 | 2015 | 2017 |\n|-|-|-|-|-|-|\n| Annex I parties Under UNFCCC | 17.89 | 18.27 | 17.42 | 16.71 | 16.65 |\n\n_END_OF_TABLE_\nAs at 15 April 2019. Note: The comparison of emission trends between Annex I and non-Annex I countries should be undertaken with caution owing to the difference in the reporting requirements for Annex I and non-Annex I Parties under the UNFCCC (annual vs. periodical), as well as to the availability of data for most non-Annex I Parties (developing countries report information only for some specific years in the period 1994-2012 and not for the complete period). Source: The United Nations Framework Convention on Climate Change (UNFCCC) \n# Number of Parties to the Paris Agreement under the United Nations Framework Convention on Climate\nChange and Number of nationally determined contributions (NDCs) \n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| | 20191 |\n|-|-|\n| Total number of Parties that ratified the Paris Agreement | 186 |\n| Total number of Parties that communicated their first nationally determined contributions (NDCs) | 183 |\n| Total number of Parties that communicated their second nationally determined contributions (NDCs) | 1 |\n| As of May 2019.1 | |\n\n_END_OF_TABLE_\nSource: The United Nations Framework Convention on Climate Change (UNFCCC) 107 [E/2019/68] \n# Goal 14 Conserve and sustainably use the oceans, seas and marine resources for\nsustainable development \n# Target 14.4\n\n# By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices and implement science-based management plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce maximum sustainable yield as determined by their biological characteristics\n\n# Indicator 14.4.1\n\n# Proportion of fish stocks within biologically sustainable levels\n",
+            "title": "Sustainable Development Goals 2019 Report Statistical Annex",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2019 Report Statistical Annex.pdf#:~:text=%2523%20Aggregate%20GHG,biologically%20sustainable%20levels"
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "Give me a trivia question about a Sustainable Development Goal"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "The proportion of population below the international poverty line of US$1.90 per day in the world was 12.7% in 2012.",
+          "snippets": [ {
+            "text": "\n# Aggregate GHG emissions for non-Annex I Parties 1,2\n(PG CO2 equivalent) \n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| | 2000 | 2005 | 2010 | 2012 |\n|-|-|-|-|-|\n| Non-Annex I parties Under UNFCCC | 13.04 | 13.46 | 17.02 | 18.51 |\n\n_END_OF_TABLE_\n1 As at 15 April 2019. 2 Non-Annex I parties are the parties to the United Nations Framework Convention on Climate Change (UNFCCC) not listed in Annex I of the Convention and are mostly low-income developing countries. Note: The comparison of emission trends between Annex I and non-Annex I countries should be undertaken with caution owing to the difference in the reporting requirements for Annex I and non-Annex I Parties under the UNFCCC (annual vs. periodical), as well as to the availability of data for most non-Annex I Parties (developing countries report information only for some specific years in the period 1994-2012 and not for the complete period). Source: The United Nations Framework Convention on Climate Change (UNFCCC) Aggregate GHG emissions for Annex I Parties¹ (GT CO2 equivalent) \n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| | 2000 | 2005 | 2010 | 2015 | 2017 |\n|-|-|-|-|-|-|\n| Annex I parties Under UNFCCC | 17.89 | 18.27 | 17.42 | 16.71 | 16.65 |\n\n_END_OF_TABLE_\nAs at 15 April 2019. Note: The comparison of emission trends between Annex I and non-Annex I countries should be undertaken with caution owing to the difference in the reporting requirements for Annex I and non-Annex I Parties under the UNFCCC (annual vs. periodical), as well as to the availability of data for most non-Annex I Parties (developing countries report information only for some specific years in the period 1994-2012 and not for the complete period). Source: The United Nations Framework Convention on Climate Change (UNFCCC) \n# Number of Parties to the Paris Agreement under the United Nations Framework Convention on Climate\nChange and Number of nationally determined contributions (NDCs) \n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| | 20191 |\n|-|-|\n| Total number of Parties that ratified the Paris Agreement | 186 |\n| Total number of Parties that communicated their first nationally determined contributions (NDCs) | 183 |\n| Total number of Parties that communicated their second nationally determined contributions (NDCs) | 1 |\n| As of May 2019.1 | |\n\n_END_OF_TABLE_\nSource: The United Nations Framework Convention on Climate Change (UNFCCC) 107 [E/2019/68] \n# Goal 14 Conserve and sustainably use the oceans, seas and marine resources for\nsustainable development \n# Target 14.4\n\n# By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices and implement science-based management plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce maximum sustainable yield as determined by their biological characteristics\n\n# Indicator 14.4.1\n\n# Proportion of fish stocks within biologically sustainable levels\n",
+            "title": "Sustainable Development Goals 2019 Report Statistical Annex",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2019 Report Statistical Annex.pdf#:~:text=%2523%20Aggregate%20GHG,biologically%20sustainable%20levels"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "What was the proportion of population below the international poverty line of US$1.90 per day in the world in 2012?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Is it 13 percent?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Yes, that's correct. In 2012, the proportion of population below the international poverty line of US$1.90 per day in the world was 12.7%."
+    }
+  }, {
+    "userUtterance": {
+      "text": "Can you refer a document about that?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/duet-ai-roadshow-415022/locations/us-central1/agents/e476af80-04b5-4c09-b1ea-09c73cf12c93/tools/c3373af3-0aa8-4e0f-ad00-255beba75bbe",
+      "action": "SDG Store 2",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "Document about the proportion of population below the international poverty line of US$1.90 per day in the world in 2012"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "The proportion of population below the international poverty line of US$1.90 per day in the world in 2012 was 12.7%.",
+          "snippets": [ {
+            "text": "\n# Proportion of the population living below 1.90 US dollars a day, 2002 and 2012\n(percentage) Sub-Saharan Africa Oceania 30 36 Southern Asia 15 33 Caucasus and Central Asia 12 21 South-Eastern Asia 8 32 Eastern Asia 6 13 Latin America and the Caribbean 6 57 43 48 1.2 Developed regions 0.1 Developing regions 33 15 World 26 13 0 10 20 30 40 50 60 2002 2012 Note: The regional estimates for Northern Africa and Western Asia could not be calculated because the available data do not have sufficient population coverage. The Sustainable Development Goals Report 2016 \n# Poverty was halved over a decade, but one in eight people around the world still lived in extreme poverty in 2012\nThe international poverty line is currently defined as 1.90 US dollars per person per day using 2011 purchasing power parity (PPP). In the decade from 2002 to 2012, the proportion of the global population living below the poverty line dropped by half, from 26 to 13 per cent. If economic growth rates observed during those 10 years prevail for the next 15, the global rate for extreme poverty will likely fall to 4 per cent by 2030, assuming that growth benefits all income groups equally. Poverty remains widespread in sub-Saharan Africa, where more than 40 per cent of people lived on less than 1.90 US dollars a day in 2012. 12 13 \n# Among the working poor, young people are\nmost likely to live in extreme poverty In 2015, 10 per cent of the world's workers and their families were living on less than 1.90 US dollars per person per day, down from 28 per cent in 2000. Young people aged 15 to 24 are most likely to be among the working poor: 16 per cent of all employed youth were living below the poverty line in 2015, compared with 9 per cent of working adults. One-third of all workers in sub-Saharan Africa and more than 18 per cent of workers in Southern Asia were among the working poor that year. Proportion of employed population living below 1.90 US dollars a day, total, youth and adults, 2000 and 2015 (percentage) 60 50 40 30 20 ",
+            "title": "Sustainable Development Goals 2016 Report",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2016 Report.pdf#:~:text=%2523%20Proportion%20of,40%2030%2020"
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "Document about the proportion of population below the international poverty line of US$1.90 per day in the world in 2012"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "The proportion of population below the international poverty line of US$1.90 per day in the world in 2012 was 12.7%.",
+          "snippets": [ {
+            "text": "\n# Proportion of the population living below 1.90 US dollars a day, 2002 and 2012\n(percentage) Sub-Saharan Africa Oceania 30 36 Southern Asia 15 33 Caucasus and Central Asia 12 21 South-Eastern Asia 8 32 Eastern Asia 6 13 Latin America and the Caribbean 6 57 43 48 1.2 Developed regions 0.1 Developing regions 33 15 World 26 13 0 10 20 30 40 50 60 2002 2012 Note: The regional estimates for Northern Africa and Western Asia could not be calculated because the available data do not have sufficient population coverage. The Sustainable Development Goals Report 2016 \n# Poverty was halved over a decade, but one in eight people around the world still lived in extreme poverty in 2012\nThe international poverty line is currently defined as 1.90 US dollars per person per day using 2011 purchasing power parity (PPP). In the decade from 2002 to 2012, the proportion of the global population living below the poverty line dropped by half, from 26 to 13 per cent. If economic growth rates observed during those 10 years prevail for the next 15, the global rate for extreme poverty will likely fall to 4 per cent by 2030, assuming that growth benefits all income groups equally. Poverty remains widespread in sub-Saharan Africa, where more than 40 per cent of people lived on less than 1.90 US dollars a day in 2012. 12 13 \n# Among the working poor, young people are\nmost likely to live in extreme poverty In 2015, 10 per cent of the world's workers and their families were living on less than 1.90 US dollars per person per day, down from 28 per cent in 2000. Young people aged 15 to 24 are most likely to be among the working poor: 16 per cent of all employed youth were living below the poverty line in 2015, compared with 9 per cent of working adults. One-third of all workers in sub-Saharan Africa and more than 18 per cent of workers in Southern Asia were among the working poor that year. Proportion of employed population living below 1.90 US dollars a day, total, youth and adults, 2000 and 2015 (percentage) 60 50 40 30 20 ",
+            "title": "Sustainable Development Goals 2016 Report",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2016 Report.pdf#:~:text=%2523%20Proportion%20of,40%2030%2020"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "You can refer to the Sustainable Development Goals 2016 Report."
+    }
+  }, {
+    "userUtterance": {
+      "text": "What is the 6th Sustainable Development Goal about?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/duet-ai-roadshow-415022/locations/us-central1/agents/e476af80-04b5-4c09-b1ea-09c73cf12c93/tools/c3373af3-0aa8-4e0f-ad00-255beba75bbe",
+      "action": "SDG Store 2",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "What is the 6th Sustainable Development Goal about?"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "The 6th Sustainable Development Goal is to ensure availability and sustainable management of water and sanitation for all.",
+          "snippets": [ {
+            "text": "\n# Goal 6. Ensure availability and sustainable management of water and sanitation for all\n",
+            "title": "Sustainable Development Goals 2022 Report",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2022 Report.pdf#:~:text=%2523%20Goal%206.,sanitation%20for%20all"
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "What is the 6th Sustainable Development Goal about?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "The 6th Sustainable Development Goal is to ensure availability and sustainable management of water and sanitation for all.",
+          "snippets": [ {
+            "text": "\n# Goal 6. Ensure availability and sustainable management of water and sanitation for all\n",
+            "title": "Sustainable Development Goals 2022 Report",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2022 Report.pdf#:~:text=%2523%20Goal%206.,sanitation%20for%20all"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "The 6th Sustainable Development Goal is to ensure availability and sustainable management of water and sanitation for all."
+    }
+  } ],
+  "displayName": "Trivia Example 1 w Tool",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

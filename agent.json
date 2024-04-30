@@ -1,0 +1,15 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "enableLogging": true,
+  "projectNumber": 172711540191,
+  "advancedSettings": {
+    "loggingSettings": {
+      "enableInteractionLogging": true
+    }
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/172711540191/locations/us/collections/default_collection/engines/e476af80-04b5-4c09-b1ea-09c73cf12c93"
+  },
+  "startPlaybook": "Eco Oracle"
+}

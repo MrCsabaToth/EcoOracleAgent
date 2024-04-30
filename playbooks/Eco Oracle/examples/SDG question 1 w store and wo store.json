@@ -1,0 +1,130 @@
+{
+  "name": "acb18723-b756-4f16-b748-e16224997e0b",
+  "actions": [ {
+    "userUtterance": {
+      "text": "What is the Sustainable Development Goal 6 about?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/duet-ai-roadshow-415022/locations/us-central1/agents/e476af80-04b5-4c09-b1ea-09c73cf12c93/tools/c3373af3-0aa8-4e0f-ad00-255beba75bbe",
+      "action": "SDG Store 2",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "What is the Sustainable Development Goal 6 about?"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "The Sustainable Development Goal 6 is about ensuring availability and sustainable management of water and sanitation for all. It includes targets such as achieving universal and equitable access to safe and affordable drinking water for all by 2030, achieving access to adequate and equitable sanitation and hygiene for all and ending open defecation, paying special attention to the needs of women and girls and those in vulnerable situations.",
+          "snippets": [ {
+            "text": "\n# Goal 6. Ensure availability and sustainable management of water and sanitation for all\n",
+            "title": "Sustainable Development Goals 2022 Report",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2022 Report.pdf#:~:text=%2523%20Goal%206.,sanitation%20for%20all"
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "What is the Sustainable Development Goal 6 about?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "The Sustainable Development Goal 6 is about ensuring availability and sustainable management of water and sanitation for all. It includes targets such as achieving universal and equitable access to safe and affordable drinking water for all by 2030, achieving access to adequate and equitable sanitation and hygiene for all and ending open defecation, paying special attention to the needs of women and girls and those in vulnerable situations.",
+          "snippets": [ {
+            "text": "\n# Goal 6. Ensure availability and sustainable management of water and sanitation for all\n",
+            "title": "Sustainable Development Goals 2022 Report",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2022 Report.pdf#:~:text=%2523%20Goal%206.,sanitation%20for%20all"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "The Sustainable Development Goal 6 is about ensuring availability and sustainable management of water and sanitation for all. It includes targets such as achieving universal and equitable access to safe and affordable drinking water for all by 2030, achieving access to adequate and equitable sanitation and hygiene for all and ending open defecation, paying special attention to the needs of women and girls and those in vulnerable situations."
+    }
+  }, {
+    "userUtterance": {
+      "text": "What actions can I take in real life to help with this goal?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "There are many actions you can take in real life to help with Sustainable Development Goal 6. Here are a few examples:\n- Conserve water by taking shorter showers, fixing leaky faucets, and watering your lawn less often.\n- Recycle and compost to reduce the amount of waste that goes to landfills.\n- Support organizations that are working to improve access to clean water and sanitation around the world.\n- Educate yourself and others about the importance of water and sanitation."
+    }
+  }, {
+    "userUtterance": {
+      "text": "What is the Sustainable Development Goal 7?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/duet-ai-roadshow-415022/locations/us-central1/agents/e476af80-04b5-4c09-b1ea-09c73cf12c93/tools/c3373af3-0aa8-4e0f-ad00-255beba75bbe",
+      "action": "SDG Store 2",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "What is the Sustainable Development Goal 7?"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "Sustainable Development Goal 7 is about ensuring access to affordable, reliable, sustainable and modern energy for all. It includes targets such as ensuring universal access to electricity by 2030, increasing the share of renewable energy in the global energy mix, and improving energy efficiency.",
+          "snippets": [ {
+            "text": "\n# Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all\n",
+            "title": "Sustainable Development Goals 2023 Report",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2023 Report.pdf#:~:text=%2523%20Goal%207:,energy%20for%20all"
+          }, {
+            "text": "\n# The Sustainable Development Goals Report 2018\nUnited Nations \n# Contents\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| 34161822242628303435 |\n\n_END_OF_TABLE_\nForeword Overview A data revolution in motion Goal 6: Clean water and sanitation Goal 7: Affordable and clean energy Goal 11: Sustainable cities and communities Goal 12: Responsible consumption and production Goal 15: Life on land Goal 17: Partnership for the Goals Note to the reader Regional groupings United Nations New York, 2018 \n# The Sustainable Development Goals Report\n\n# 2018\n",
+            "title": "Sustainable Development Goals 2018 Report",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2018 Report.pdf#:~:text=%2523%20The%20Sustainable,Report%20%2523%202018"
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "What is the Sustainable Development Goal 7?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Sustainable Development Goal 7 is about ensuring access to affordable, reliable, sustainable and modern energy for all. It includes targets such as ensuring universal access to electricity by 2030, increasing the share of renewable energy in the global energy mix, and improving energy efficiency.",
+          "snippets": [ {
+            "text": "\n# Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all\n",
+            "title": "Sustainable Development Goals 2023 Report",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2023 Report.pdf#:~:text=%2523%20Goal%207:,energy%20for%20all"
+          }, {
+            "text": "\n# The Sustainable Development Goals Report 2018\nUnited Nations \n# Contents\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| 34161822242628303435 |\n\n_END_OF_TABLE_\nForeword Overview A data revolution in motion Goal 6: Clean water and sanitation Goal 7: Affordable and clean energy Goal 11: Sustainable cities and communities Goal 12: Responsible consumption and production Goal 15: Life on land Goal 17: Partnership for the Goals Note to the reader Regional groupings United Nations New York, 2018 \n# The Sustainable Development Goals Report\n\n# 2018\n",
+            "title": "Sustainable Development Goals 2018 Report",
+            "uri": "gs://sustainable-development-goals/Sustainable Development Goals 2018 Report.pdf#:~:text=%2523%20The%20Sustainable,Report%20%2523%202018"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Sustainable Development Goal 7 is about ensuring access to affordable, reliable, sustainable and modern energy for all. It includes targets such as ensuring universal access to electricity by 2030, increasing the share of renewable energy in the global energy mix, and improving energy efficiency."
+    }
+  }, {
+    "userUtterance": {
+      "text": "Can you tell me some actionable items I can follow to contribute towards that goal?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Here are some actionable items you can follow to contribute towards Sustainable Development Goal 7:\n- Switch to renewable energy sources such as solar or wind power for your home or business.\n- Invest in energy-efficient appliances and lighting.\n- Unplug electronics and appliances when not in use.\n- Drive less and walk, bike, or take public transportation more often.\n- Support organizations that are working to promote renewable energy and energy efficiency."
+    }
+  }, {
+    "userUtterance": {
+      "text": "What could be great climate action goals if I live in the California Central Valley agricultural area?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Here are some great climate action goals if you live in the California Central Valley agricultural area:\n- Reduce your water usage by planting drought-tolerant crops and using efficient irrigation methods.\n- Adopt sustainable farming practices such as no-till farming and crop rotation.\n- Install solar panels or other renewable energy sources on your property.\n- Drive less and walk, bike, or take public transportation more often.\n- Support local organizations that are working to promote climate action."
+    }
+  } ],
+  "displayName": "SDG question 1 w store and wo store",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

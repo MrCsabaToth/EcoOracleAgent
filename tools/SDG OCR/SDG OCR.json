@@ -1,0 +1,36 @@
+{
+  "name": "55681b72-d24f-4d6a-80c2-41940576a75a",
+  "displayName": "SDG OCR",
+  "description": "This dataset contains compiled and curated figures about sustainable development goal targets and progresses over the years.",
+  "actions": [ "SDG OCR" ],
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/172711540191/locations/us/collections/default_collection/dataStores/sdg-ocr",
+      "documentProcessingMode": "CHUNKS"
+    } ],
+    "models": {
+      "summarizationModel": {
+      
+      }
+    },
+    "fallbackPrompt": {
+      "company": "GDG Fresno"
+    },
+    "groundingSettings": {
+      "groundingConfidence": "VERY_LOW"
+    }
+  },
+  "actionSchemas": [ {
+    "name": "SDG OCR",
+    "inputParameters": [ {
+      "name": "requestBody",
+      "schema": "{\n  \"required\" : [ \"query\" ],\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"query\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Query for the data store search\"\n    },\n    \"filter\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Filter expression to enhance data store search results.\"\n    },\n    \"userMetadata\" : {\n      \"type\" : \"object\",\n      \"description\" : \"Optional key/value pairs with metadata about the user to refine the data store search query.\"\n    },\n    \"fallback\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Response to provide when no answer is provided by the data store.\"\n    }\n  }\n}"
+    } ],
+    "outputParameters": [ {
+      "name": "200",
+      "schema": "{\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"answer\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Answer with the highest match confidence\"\n    },\n    \"snippets\" : {\n      \"type\" : \"array\",\n      \"description\" : \"Snippets used to derive the answer\",\n      \"items\" : {\n        \"type\" : \"object\",\n        \"properties\" : {\n          \"uri\" : {\n            \"type\" : \"string\",\n            \"description\" : \"URI of the source used to derive the answer\"\n          },\n          \"text\" : {\n            \"type\" : \"string\",\n            \"description\" : \"Source text used to derive the answer\"\n          },\n          \"title\" : {\n            \"type\" : \"string\",\n            \"description\" : \"Title of the source used to derive the answer\"\n          }\n        }\n      }\n    }\n  }\n}"
+    } ]
+  } ],
+  "toolType": "CUSTOMIZED_TOOL"
+}
